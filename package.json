@@ -1,10 +1,14 @@
 {
-  "name": "golden-book-bookstore",
+  "name": "mailgun-next-chakra-mongo",
   "version": "1.0.0",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@https://github.com/JusticeBringer/golden-book-bookstore-web.git"
   },
+  "cacheDirectories": [
+    "node_modules",
+    ".next/cache"
+  ],
   "scripts": {
     "dev": "next dev -p 3001",
     "build": "next build",
@@ -12,7 +16,8 @@
     "start": "next start -p $PORT",
     "format": "prettier --check \"src/**/*.tsx\"",
     "script": "cd src/scripts && ts-node",
-    "test": "jest"
+    "test": "jest",
+    "deploy": "git add . && git commit -m Build && git push && vercel --prod"
   },
   "dependencies": {
     "@babel/core": "^7.13.14",

@@ -1,3 +1,61 @@
+# mailgun-next-chakra-mongo
+
+# 🚀 Javascript full-stack 🚀
+
+https://github.com/coding-to-music/mailgun-next-chakra-mongo
+
+https://mailgun-next-chakra-mongo.vercel.app
+
+By Gabriel Arghire https://github.com/JusticeBringer
+
+https://golden-book-bookstore-web.herokuapp.com/
+
+https://github.com/JusticeBringer/golden-book-bookstore-web
+
+## Environment Values
+
+```java
+NODE_ENV=local
+MONGODB_URI=mongodb://localhost:27017/test
+API_KEY=cheiesigurasigura
+ADD_API_KEY=?key=$API_KEY
+
+# whenever you want to reset the mocked data, put value to true
+RESET_MOCKED_DATA=true
+
+PORT=3001
+HOSTNAME=localhost
+DOMAIN_URL=http://localhost:3000/
+DOMAIN_URL_API=http://localhost:3000/api/v0
+DOMAIN_URL_API_BOOKS=$DOMAIN_URL_API/catalog/books
+DOMAIN_URL_API_ORDERS=$DOMAIN_URL_API/orders
+DOMAIN_URL_API_PAYMENTS=$DOMAIN_URL_API/payments
+
+# go to Google cloud console to get your google client id and secret
+GOOGLE_CLIENT_ID=
+GOOGLE_CLIENT_SECRET=
+
+FACEBOOK_APP_ID=
+SECRET_JWT_TOKEN=verysecretokentoken
+ORIGIN_DOMAIN_URL=http://localhost:3001
+PAYPAL_CLIENT_ID=
+```
+
+## GitHub
+
+```java
+git init
+git add .
+git remote remove origin
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:coding-to-music/mailgun-next-chakra-mongo.git
+git push -u origin main
+vercel --prod --confirm
+
+# vercel env add
+```
+
 # „Golden Book” Bookstore - WEB
 
 ![Heroku](https://github.com/DenisOH/pyheroku-badge/blob/master/img/deployed.svg) [![TypeScript](https://badges.frapsoft.com/typescript/code/typescript.svg?v=101)](https://github.com/ellerbrock/typescript-badges/) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![Chakra](https://img.shields.io/badge/chakra-%234ED1C5.svg?style=for-the-badge&logo=chakraui&logoColor=white) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
